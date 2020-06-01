@@ -31,6 +31,8 @@ for name in names_2:
     if bst_names.contains(name):
         duplicates.append(name)
 
+# STRETCH
+# duplicates = set(names_1).intersection(names_2)
 
 
 end_time = time.time()
